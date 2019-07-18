@@ -1,0 +1,70 @@
+
+html {
+  font-size: 10px;
+}
+body {
+  background: #042029;
+  font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
+	color: #EAE3CB;
+}
+h1 {
+    color: #A57706;
+    margin-block-start: 50px;
+    margin-bottom: 20px;
+    font-family: 'Bree Serif';
+}
+#art {
+  margin: 0 100px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+  width: 320px;
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+.cell {
+	position: relative;
+}
+
+img {
+	border: 1px solid #FCF4DC;
+  	cursor: url(images/magnifying_glass.png), auto;
+}
+figure {
+  margin: 0;
+}
+figure.preview {
+  position: absolute;
+  z-index: 100;
+}
+figure.preview img {
+	max-width: 500px;
+  max-height: 500px;
+  	display: block;
+  	border: 1px solid #FCF4DC;
+  	-webkit-box-shadow: 5px 5px 12px black;
+  	-moz-box-shadow: 5px 5px 12px black;
+  	box-shadow: 5px 5px 12px black;
+}
+figcaption {
+  background: #042029;
+  padding: 1rem;
+}
+
+p[data-pict='1'],
+p[data-pict='2'],
+p[data-pict='3'],
+p[data-pict='4'],
+p[data-pict='5'],
+p[data-pict='6'], 
+p[data-pict='7'],
+p[data-pict='8'],
+p[data-pict='9'] 
+{
+  display: none;
+}
+
